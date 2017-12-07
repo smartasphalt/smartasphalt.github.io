@@ -43,21 +43,18 @@ http://www.templatemo.com/tm-483-lumino
 
                         <ul class="nav navbar-nav">
                             <li class="nav-item">
-                                <a class="nav-link" href="#top">Intro</a>
+                                <a class="nav-link" href="#top">Giriş</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#tm-section-2">News</a>
+                                <a class="nav-link" href="#tm-section-2">Sorun ne?</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#tm-section-3">Gallery</a>
+                                <a class="nav-link" href="#tm-section-3">Ne yaptık ?</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#tm-section-4">Contact</a>
+                                <a class="nav-link" href="#tm-section-4">Kaynakça</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link external" href="columns.html">Columns</a>
-                            </li>
-                        </ul>
+                           
 
                     </div>
                   
@@ -82,47 +79,68 @@ http://www.templatemo.com/tm-483-lumino
                 </div>
             </div>
 
-            <div class="row gray-bg">
+            <div class="row">
                 
                 <div id="tm-section-2" class="tm-section">
-                    <div class="tm-container tm-container-wide">
+                    <div class="tm-container text-xs-center">
                         <div class="tm-news-item">
                             
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-item-img-container">
-                                <img src="img/tm-600x300-01.jpg" alt="Image" class="img-fluid tm-news-item-img">  
-                            </div>
                             
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-container">
-                                <h2 class="tm-news-title dark-gray-text">Nulla molestie euismod</h2>
-                                <p class="tm-news-text">Lumino theme is a Bootstrap 4.0 mobile compatible layout for your website. Check "columns" page for one, two, three columns and tables.</p>
-                                <a href="#" class="btn tm-light-blue-bordered-btn tm-news-link">Preview</a>
+                            
+                             <div class="tm-container text-xs-center">
+                               <h2 class="blue-text tm-title">Ana sorun ne ?</h2>
+                        <p class="margin-b-5">Yol yoğunluk(trafik) haritalarının gecikmeli olmasıdır. Mevcut yol yoğunluk haritalarının gecikmeli oluşundan
+dolayı trafik sıkışıklığının sistemde görünür olması epey zaman almakta bununla birlikte mevcut sistem bize
+10 dakika sonra nasıl bir trafik olabileceği bilgisini kullandığı teknoloji ve verilerin o uygulamayı kullanan
+kişilere bağımlı olmasından dolayı verememektedir.
+Bu da kullanıcıların belli bir bölümünü trafik bilgisi haritalara yansıyana kadar yanlış bilgi ile yollarına devam
+etmeleri ve trafik sorununa maruz kalmalarıdır.
+Günümüzde kullandığımız yol yoğunluk haritalarının bir kaçının çalışma prensipleri;
+Yandex diyor ki:
+Küçük bir trafik kazası olduğunu varsayalım. Bu kaza yüzünden var olan üç şeritten ikisinde trafiğin hiç
+ilerlemediğini düşünelim.
+Kaza yüzünden araçlar geriye kalan tek şeridi kullanarak trafikte daha yavaş ilerlemek zorunda kalırlar. Bu
+araçların bazılarında bulunan, Yandex.Trafik’e aracın değişen seyir durumuna dair bilgi gönderen özel verici
+cihazlar varsa, caddedeki seyirlerini yavaşlatan araçların sayısı arttıkça trafiğin sıkışık olduğuna dair servise
+bilgi veren mesajların sayısı ve sıklığı da artmaya başlar.
+Bir Yandex kullanıcısının, yaşadığı şehrin trafik haritasının oluşması sürecine katılması için, GPS fonksiyonlu ve
+İnternet’e bağlanabilen bir cep telefonu veya PDA’ya sahip olması yeterlidir. Cihaza gerekli Yandex.Haritalar
+uygulamasını yükleyip “Trafik durumunu bildir” seçeneğini açık tutarak trafikteki hareketlerinize dair tüm
+veriyi sisteme iletebilirsiniz.
+<br>Bu direk yandexin kendı sayfasından aldığımız yazı.
+<br>
+<a href= "https://yandex.com.tr/company/technologies/trafik/"> <font color ="green">YANDEX</font> </a> <br>
+Google maps:
+Google maps, konum bilgisini paylaşan kişiler sayesinde sadece bu kişilerin cep telefonlarından trafik
+yoğunluğunu ölçüyor.
+Üstelik google sadece android telefonlardan sağlanan verilerden bir algoritma oluşturmus durumda. Henüz
+iphone üzeinden data alamıyor
+Bizim projemiz olan Akıllı Asfalt:
+Diyelim ki yine aynı küçük trafik kazası 3 şeritten 2 sini tıkadı ve araclar tek şeritten, doğal olarak yavas bir
+şekilde, yollarına devam ediyorlar.
+Yandex in yaptığı gibi; araçlardan alınan yavaşlama bilgilerini kullanmak yerine, asfaltta bulunan sensörler
+sayesinde, araba geçiş hızını, bekleme süresini ölçerek daha kesin, anlık sonuçlar elde ediyoruz. En önemlisi
+de hızlı veri işlemesi sebebiyle yandexin aksine, kullanıcıya daha güncel veriler sunabiliyoruz.
+Üstelik trafiğin nezaman nerde sıkışacağına dair tahminlerde bile bulunabiliyoruz. Nasıl mı?
+Kaza gibi beklenmedik olaylar olmadıkça ani duraksamalar yasanmadığında, sadece arac fazlalığından
+kaynaklanan trafik yoğunluklarının belli saatleri ve yerleri vardır. Bunu, bizler bir çok kez trafikte mahsur
+kalarak deneyimledik, biliyoruz ve nesilden nesle aktarıyoruz..
+iş çıkış saatlerinde ya da okul saatlerinde trafiğin yoğun olduğunu öğreniyoruz. Örneğin sabahları 1 bucuk
+saatte aldığım kartal-gebze yolunu öğle saatlerinde 40 dk gibi bir sürede gidiyorum. Ama bunu okula ilk
+başladığım sene bilmiyordum 17b kullana kullana öğrendim. Peki ya okulun ilk gününden beri hangi saatlerde
+trafiğin olup olmayacağını öğrenebilseydim??
+Akıllı asfalt bizlere bu bilgileri de sağlıyor. Makine öğrenmesi sayesinde veri tabanında depolanan
+daha önceden sensörlerden aldığımız verileri ve saat bilgilerini makine öğrenmesi tekniklerini kullanarak
+analiz ederek,daha trafik sıkışmadan hangi şartlarda trafiğin sıkıştığını belirleyerek kullanıcıları bilgilendirmek
+amaçlanmaktadır.</p>
                             </div>
                         </div>
 
-                        <div class="tm-news-item">
+                        
 
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 flex-order-2 tm-news-item-img-container">
-                                <img src="img/tm-600x300-02.jpg" alt="Image" class="img-fluid tm-news-item-img">
-                            </div>
+                            
 
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-container flex-order-1">
-                                <h2 class="tm-news-title dark-gray-text">Nulla molestie euismod</h2>
-                                <p class="tm-news-text">You may download, modify and use this template as you wish. Lumino HTML5 template is a fully responsive mobile ready for any kind of website.</p>
-                                <a href="#" class="btn tm-light-blue-bordered-btn tm-news-link">Detail</a>
-                            </div>
-                        </div>
-
-                        <div class="tm-news-item">
-
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-item-img-container">
-                                <img src="img/tm-600x300-03.jpg" alt="Image" class="img-fluid tm-news-item-img">
-                            </div>
-
-                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 tm-news-container">
-                                <h2 class="tm-news-title dark-gray-text">Nulla molestie euismod</h2>
-                                <p class="tm-news-text">Credit goes to <a rel="nofollow" href="http://unsplash.com" target="_parent">Unsplash</a> for images used in this website template. Nulla sit amet tristique lacus. Etiam blandit ex vitae mauris gravida.</p>
-                                <a href="#" class="btn tm-light-blue-bordered-btn tm-news-link">Read</a>
-                            </div>
+                            
                         </div>
                     </div>                    
                </div>
@@ -134,71 +152,272 @@ http://www.templatemo.com/tm-483-lumino
                 <section id="tm-section-3" class="tm-section">
                     <div class="tm-container text-xs-center">
                         
-                        <h2 class="blue-text tm-title">Lorem ipsum dolor sit amet</h2>
-                        <p class="margin-b-5">Etiam at rhoncus nisl. Nunc rutrum ac ante euismod cursus.</p>
-                        <p>Suspendisse imperdiet feugiat massa nex iaculis.</p>
-                       
-                        <div class="tm-img-grid">
-                            <div class="tm-gallery-img-container">
-                                <a href="img/tm-450x300-01.jpg" class="tm-gallery-img-link">
-                                    <img src="img/tm-450x300-01.jpg" alt="Image" class="img-fluid tm-gallery-img"> <!-- 300x200 -->
-                                </a>
-                            </div>
-                            <div class="tm-gallery-img-container">
-                                <a href="img/tm-450x300-07.jpg" class="tm-gallery-img-link">
-                                    <img src="img/tm-450x300-07.jpg" alt="Image" class="img-fluid tm-gallery-img">  
-                                </a>
-                            </div>
-                            <div class="tm-gallery-img-container">
-                                <a href="img/tm-450x300-02.jpg" class="tm-gallery-img-link">
-                                    <img src="img/tm-450x300-02.jpg" alt="Image" class="img-fluid tm-gallery-img">
-                                </a>                           
-                            </div>
-                            <div class="tm-gallery-img-container">
-                                <a href="img/tm-450x300-09.jpg" class="tm-gallery-img-link">
-                                    <img src="img/tm-450x300-09.jpg" alt="Image" class="img-fluid tm-gallery-img">
-                                </a>
-                            </div>
-                            <div class="tm-gallery-img-container">
-                                <a href="img/tm-450x300-03.jpg" class="tm-gallery-img-link">
-                                    <img src="img/tm-450x300-03.jpg" alt="Image" class="img-fluid tm-gallery-img">
-                                </a>
-                            </div>
-                            <div class="tm-gallery-img-container">
-                                <a href="img/tm-450x300-08.jpg" class="tm-gallery-img-link">
-                                    <img src="img/tm-450x300-08.jpg" alt="Image" class="img-fluid tm-gallery-img">
-                                </a>
-                            </div>
-                            <div class="tm-gallery-img-container">
-                                <a href="img/tm-450x300-10.jpg" class="tm-gallery-img-link">
-                                    <img src="img/tm-450x300-10.jpg" alt="Image" class="img-fluid tm-gallery-img">
-                                </a>
-                            </div>
-                            <div class="tm-gallery-img-container">
-                                <a href="img/tm-450x300-04.jpg" class="tm-gallery-img-link">
-                                    <img src="img/tm-450x300-04.jpg" alt="Image" class="img-fluid tm-gallery-img">
-                                </a>
-                            </div>
-                            <div class="tm-gallery-img-container">
-                                <a href="img/tm-450x300-05.jpg" class="tm-gallery-img-link">
-                                    <img src="img/tm-450x300-05.jpg" alt="Image" class="img-fluid tm-gallery-img">
-                                </a>
-                            </div>
-                            <div class="tm-gallery-img-container">
-                                <a href="img/tm-450x300-11.jpg" class="tm-gallery-img-link">
-                                    <img src="img/tm-450x300-11.jpg" alt="Image" class="img-fluid tm-gallery-img">
-                                </a>
-                            </div>
-                            <div class="tm-gallery-img-container">
-                                <a href="img/tm-450x300-06.jpg" class="tm-gallery-img-link">
-                                    <img src="img/tm-450x300-06.jpg" alt="Image" class="img-fluid tm-gallery-img">
-                                </a>
-                            </div>
-                            <div class="tm-gallery-img-container">
-                                <a href="img/tm-450x300-12.jpg" class="tm-gallery-img-link">
-                                    <img src="img/tm-450x300-12.jpg" alt="Image" class="img-fluid tm-gallery-img">
-                                </a>
-                            </div>
+                        <h2 class="blue-text tm-title">Projede ne kullandık ?</h2>
+                        <p class="blue-text tm-title" align="left">Sensör</p>
+						
+                        <p align="left"><font color="blue">Sensör nedir?</font><br>
+Elektronik uygulamalarda algılama işlemini yapan sistem ya da elemanlara sensör denir.
+Ayrıca algılayıcı veya duyarga olarak da bilinmektedir.
+Sensörler, fiziksel ortam ile elektronik cihazları birbirine bağlayan bir köprü görevi görürler.
+Sistemdeki sensör veya sensör grupları yapısı hangi değişkene duyarlı ise sistem dışındaki değişkeni algılar ve
+elde ettiği değerleri sistemin karar verme birimine yollar.<br>
+<font color="blue">Sensörü Seçerken Nelere Dikkat ettik?</font><br>
+1. Sensör Nerede Kullanılacak?<br>
+2. Doğru Hassasiyetlikte Sensör Seçme.<br>
+3. Sensörün Ölçüm Aralığı<br>
+4. Sensörün Tepkime Süresi<br>
+5. Sensörün Kararlılığı<br>
+6. Sensörün Maliyeti<br>
+<font color="blue">Neden Lazer Mesafe Sensörü seçtik</font><br>
+Ağır Şartlara dayanıklı olması(Kar,Yağmur,Soğuk Sıcak)<br>
+Ölçüm aralığının yeterli olması<br>
+Araçlar hızla geçecekleri için tepkime süresinni düşük olması<br>
+Her koşulda kesin sonuçlar vermesi gerekli<br>
+Maliyet açısından optimal düzeyde olmalı fiyat/performans<br>
+Boyut olarak ufak form factore sahip olmalı<br>
+Sistem de lazer sensör nasıl kullanılacak?<br>
+Sensör normal durumda üzerinden araç geçmez iken ölçebildiği maksimum değeri göstericektir. Bu bizim
+sensörümüzde 1,5 metredir. Üzeriden araç geçtiği anda aracın yüksekliğine bağlı olarak 1,5 metreden daha
+az bir değğer gösterecek ve biz sensör üzeirndne bir araç geçtiği bilgisine ulaşmış olacağız.<br>
+Amaca Uygun Sensör Seçme<br>
+<font color="blue">Sensör Nerede Kullanılacak?</font><br>
+Kullanacağımız sensörden doğru veri alabilmek için bilmemiz gereken en önemli hususlardan biridir.<br>
+Sensörler imal edilirken çok değişik şekillerde imal edilebilmektedirler. Bunun sebebi ise kullanım alanlarının
+farklı olmasıdır. Bu durum sensörlerin yapısını, hassasiyetini, dayanıklılığını ve maliyeti gibi pek çok faktörü
+etkileyebilmektedir. Bundan dolayı bir sensör seçerken nerede ve ne şartlarda kullanacağımızı çok iyi
+bilmemiz gerekir.<br>
+<font color="blue">1.Doğru Hassasiyetlikte Sensör Seçme.</font><br>
+Sensörler çeşitli hassasiyetlikler de üretilirler. Hassasiyet seçiminde ne kadar hassas ölçüm yapmak istiyorsak
+o aralıkta ölçüm yapabilen sensörü bulmamız gerekir.<br>
+<font color="blue">2. Sensörlerin Ölçüm Aralığı</font><br>
+Sensörler imal edilirken belli bir ölçüm aralığını ölçebilecek şekilde üretilirler. Hangi tür sensör kullanılırsa
+kullanılsın bu konuda çalışan elektronikçinin giriş büyüklüğünün maksimum ve minimum hangi seviyede
+olabileceğini tahmin edebiliyor olması gerekir. Örneğin; PTC sıcaklık sensörü -50 ile +150 arasındaki
+sıcaklıkları ölçebilir. Yani PTC’nin ölçüm aralığı -50 ile +150 arasındadır. Bu aralığın dışında bir sıcaklık ölçümü
+yapılacaksa başka sıcaklık sensörü kullanılması gerekir.<br>
+<font color="blue">3.Sensörlerin Tepkime Süresi</font><br>
+Hangi türde bir sensör olursa olsun bütün sensörlerin belirli bir tepki verme süreleri vardır. Ölçüm yaptığı
+büyüklükteki veriyi algıladıktan sonra bağlı olduğu birime bu veriyi aktarma işlemi sırasında geçen süre olarak
+ta ifade edebiliriz. Bu süre mili saniye cinsinden ifade edilir. Eğer kullanacağınız sensörün tepki verme süresi
+sizin için önemli ise ilgili sensörün katalogundan tepkime süresine bakabilirsiniz.<br>
+<font color="blue">4.Sensörlerin Kararlılığı</font><br>
+Bir sensörün kararlılığı kalitesini gösteren en önemli faktörlerden biridir. Kararlılığı en basit ifade ile şu şekilde
+açıklayabiliriz. Sabit bir giriş ölçülürken, belirli bir süre boyunca aynı çıkış değerini verebilme kabiliyetidir.
+Yani sensör ile sabit bir ölçüm yapılıyorken hep aynı değeri ölçebiliyor ise sensör tam kararlıdır diyebiliriz.<br>
+<font color="blue">5.Sensörler de Maliyet</font><br>
+Her konuda olduğu gibi sensör seçiminde de önemli hususlardan biri de maliyettir. Yapacağımız işi ucuza mal
+etmek için sensör seçimi yaparken fiyatlarına da dikkat etmemiz gerekir. Sensör maliyetlerini düşürmek için
+amacımıza uygun en doğru sensörü seçmemiz gerekmektir. Çünkü eğer kullanım için yetersiz bir sensör
+seçecek olursak hem proje düzgün çalışmaz hem de maliyeti artırmış oluruz. Diğer şekilde ise, kullanacağımız
+amacın çok üstünde bir sensör seçersek kuşkusuz yine maliyet artacaktır</p>
+<div class="col-md-6 margin-bottom-sm-8">
+<div class="tm-2-col-box-left">
+                            <img src="sensör.jpg" alt="Image" class="img-fluid tm-img-2-col">
+							
+</div></div>
+<div class="col-md-6 margin-bottom-sm-8">
+<div class="tm-2-col-box-left">
+                            <img src="sensör2.jpg" alt="Image"  height="500" width="650">
+							
+</div></div>
+                  <p class="blue-text tm-title" align="left">Gömülü Sistemler</p>   
+<p align="left">Gömülü sistemler herhangi bir sistemin kontrolü için meydana getirilmiş, o sistemi akıllı hale getiren
+elektronik donanım ve yazılımla oluşmuş entegre sistemlerdir. Kullanıcıyla dolaylı olarak etkileşimdedir ve tek
+bir görevi yerine getirmektedir.<br>
+Bilgisayar, yazıcı, tarayıcı, hesap makinesi, cep telefonu, televizyon fotoğraf makinesi, bulaşık makinesi,
+elektronik oyuncaklar gibi günlük yaşantımızda kullandığımız eşyalarımızın hemen hemen hepsinde bu
+sistemi görmek mümkündür.<br>
+<font color="blue">Gömülü Sistem Donanım(Hardware)</font><br>
+Gömülü sistemler yapısında bulundurdukları mikro denetleyici ve mikroişlemci gibi bileşenlerin
+programlanması ile işlevsel hale getirilirler. Bu bileşenler de ortaya konmak istenen proje ile bağlantılı olarak
+seçilip kullanılmaktadırlar. Şimdi bu yapıları kısaca açıklayarak konunun daha iyi kavranmasını sağlayalım.
+Bir gömülü sistemin çekirdek elemanını işlemci ya da hesaplama birimi oluşturur. İşlemciler, gömülü sistemin
+beyin görevini görürler. İşlemcilerin bir görevi gerçekleştirebilmesi için programlanmaları gerekir. Gömülü
+sistemlerde kullanılan işlemcileri aşağıdaki gibi sınıflandırabilriz.<br>
+<font color="blue">1.Mikro denetleyici:</font> Silikon bir yonga üzerinde bir
+araya getirilmiş olan mikroişlemci, bellek, sayısal
+giriş - çıkışlar ve sistem için gereken diğer çevre
+birimlerini de (analog – sayısal çeviriciler, kesiciler,
+sayaçlar, zamanlayıcılar) içeren mikrobilgisayardır.<br>
+<font color="blue">2.Mikroişlemci:</font> Merkezi işlem biriminin işlevlerini tek bir
+yarı iletken tümleşik devre üzerinde birleştiren
+programlanabilir bir sayısal elektronik bileşen olarak ifade
+edilir.<br>
+<font color="blue">Gömülü Sistem Tasarımı</font><br>
+Günümüzde kullanılan gömülü sistemlerde yaygın olarak standart bir ara yüz ve iki tuş bulunmaktadır.
+Tasarlanan bu tuşlardan biri menüye erişim için, diğeri cihazın gerçekleştirmesi gereken görev seçimi için
+kullanılır. Bu tarz sistemlerde menüler ve kullanımları oldukça kolay olduğu için kullanıcılar arasında beğeni
+kazanmış durumdadır.<br>
+<font color="blue">YAZILIM (SOFTWARE)</font><br>
+Gömülü sistemlerde donanım ve yazılım ayrılmaz bir bütün oalrak ele alınır. Donanımı gömülü sistemin
+vücudu olarak düşünürsek, sistemin ruhunu yazılım oluşturur. Yazılım bir gömülü sisteme işlevsellik
+kazandırır. Görevleri oldukça farklı olan gömülü sistemler için çok çeşitli yazılım dilleri ortaya çıkmıştır.
+Örneğin bir dil kontrol uygulamalarında çok iyiyken, sinyal işleme uygulamalarında iyi olmayabilir.
+Projemizde kullanmış olduğumuz NodeMCU;<br>
+Açık kaynak kodlu yazılımlıdır ve geliştirme kartlarıyla IoT projelerinde kolayca prototiplemeye lua arayüzüyle
+yardımcı olur.<br>
+Uygun fiyatlı ve breadboard uyumludur.<br>
+Esp8266 tabanlı projelerinizi kolayca ayarlarını yapıp çalıştırmayı hedefleyen bir geliştirme kartıdır.<br>
+Bu ürün tek başına kullanılabilir.<br>
+Ek olarak geliştirme kartı gerektirmez.<br>
+I/O pinlerinin pwm , adc, IIC , 1 wire, uart gibi özellikleri bulunmaktadır.<br>
+Kendi üzerinde anteni bulunmaktadır.<br>
+Mikro usb ile kolayca bilgisayar bağlantısı sağlanabilir.<br>
+Cp2102 çipi sayesinde sürücü yüklemeye ihtiyaç duymaz.<br>
+Wi-Fi modülü – ESP-12E modülü (ESP-12 modülüne benzer fakat fazladan 6 gpio pini bulunmaktadır)<br>
+USB – mikro usb portu güç , programlama ve derleme için
+Pinler – 2x 2.54mm 15-pin bağlantısı GPIOs, SPI, UART, ADC ve güç pinleri için
+Misc – Reset ve Flash tuşları
+Güç – 5V mikro usb portu üzerindenü
+Boyutlar – 49 x 24.5 x 13mm<br>
+
+</p><br>	
+<div class="col-md-6 margin-bottom-sm-8">
+<div class="tm-2-col-box-left">
+                            <img src="gömülüsistem1.jpg" alt="Image" class="img-fluid tm-img-2-col">
+							
+</div></div>
+<div class="col-md-6 margin-bottom-sm-8">
+<div class="tm-2-col-box-left">
+                            <img src="gömülüsistem2.jpg" alt="Image"  height="500" width="650">
+							
+</div></div>			  
+ <p class="blue-text tm-title" align="center">Web Servisler</p>
+<p align="left">Web servisler, istemci bilgisayar (client) tarafından gönderilen istekleri (request) yorumlayarak gönderilen
+isteğe göre istemciye yapısından bulundurduğu bilgileri aktarmaktadır.<br>
+<font color="blue">Sensor-sunucu iletişimi</font><br>
+Günümüz şartlarında neslerin interneti olarak bildiğimiz yöntem ile (internet of things )tüm akıllı cihazların
+internete bağlanarak haberleşme olanağı var.Peki bu internet of thins ne işe yarar önce bundan bahsetmek
+gerek biraz.<br>
+Nesnelerin internet adreslenebilir neslerin kendi aralarında dünya çapında yaygın olan büyük bir ağdır.
+Nesnelerin belirli bir protokol içerisinde kendileri ile haberleşmesini , iletişim içerisinde olmalarını sağlar.
+Akıllı bir ağ oluşturmuş cihazlar sistemi diyebiliriz kısaca. Günümüz dünyasında bugün internete 10-11 milyar
+cihaz bağlı durumda ve bu sayı 2020 yılına kadar 50 milyar seviyesine kadar artacağı
+öngörülmekte.Nesnelerin internet ile anlık olarak çok sayıda durum bilgisine sahip olduk.Biz de internet of
+thingsin bu projenin vazgeçilmez bir parças olduğunu gözlemledik ve kullanmaya karar verdik.Peki bizim
+sistemimiz nasıl çalışıyor ?<br>
+<font color="blue">Sensor-Cihaz ilişkisi</font><br>
+Asfalt üzerinde çok sayıda sensörümüz bulunuyor.Bizim bir şekilde sensorden aldığımız bilgiyi servera
+ulaştırmamız ve daha sonra bu bilgiyi serverda işlememiz gerekiyor.Projenin ilk ayağı sensörlerin elde
+ettikleri bilgileri servera ulaştırması.Her sensörün servera bağlantısının olması ekstra maliyet ve güç ve
+veriyolu gerektirdiğinden belli aralıklarla sensörlerin bağlı oldukları bir cihaz bulundurma gereksini
+duyduk.Sensörler bu cihaza wifi üzerinden bağlı olacaklar durum bilgisi cihaza iletilecek ve cihazlar da clientserver
+ilişkisi ile bu bilgileri fiberobtik bağlatı ile daha hızlı bir biçimde servera ulaştıracak.
+Bu cihazımızın ismi NodeMCU .Cihaz madeni bir paradan biraz daha büyük bir boyutta,minik bir elektronik
+devre. Açık kaynaklı , ucuz ve oldukça yetenekli. Düşük gerilim enerji ile çalışabiliyor. Üzerinde çok sayıda
+bağlantı noktası var ve sensorler ile wifi üzerinden iletişim kurabiliyor. İnternet üzerinden rahatlıkla kontrol
+edilebiliyor. Bu cihaz sayesinde anlık olarak servera bilgi ulaştırılabilir.<br>
+<font color="blue">Sunucu</font><br>
+Sunucu yanı server 7/24 açık bulunan sürekli çalışan sistemlerdir.Yaygın olarak kullanılan birkaç server tipi
+var.Veritabanı sunucumuz olacağından bizim ihtiyaç duyacağımız server ATX/Tower tipi serverlardır.Bu
+sistemin avantajı bol genişleme ve disk yuvasına sahip olmalarıdır.Ana sistemimiz serverdır.Bilgiyi burada
+işleyip daha sonra yönlendirmeleri burada yapacağız.</p> 
+
+<div class="col-md-6 margin-bottom-sm-8">
+<div class="tm-2-col-box-left">
+                            <img src="web.jpg" alt="Image" class="img-fluid tm-img-2-col">
+							
+</div></div>
+<div class="col-md-6 margin-bottom-sm-8">
+<div class="tm-2-col-box-left">
+                            <img src="beyaz.jpg" alt="Image"  height="500" width="650">
+							
+</div></div>	
+
+
+                <p class="blue-text tm-title" align="left">Veri Tabanı ve Yönetimi</p>    
+				<p align="left"> Bir veri tabanının oluşturulması, güncellenmesi, kayıtlarının eklenmesi ve işlenmesi, kısaca veri tabanının
+yönetilebilmesi için kullanılan sistemlere Veri tabanı Yönetim Sistemi (Database Management System –
+DBMS) denir.<br>
+Geliştirilecek uygulamanın detayı, kullanıcı sayısı, maddi olanaklar vb konular göz önünde bulundurularak
+veri tabanı yönetim sistemi seçimi yapılmaktadır.<br>
+Kısaca sağladıkları faydaları aşağıdaki şekilde sıralayabiliriz:<br>
+ Veri Bağımsızlığı (Program ve verinin ayrılması, Data Independence)<br>
+ Verimli veri erişilebilirliği (Verinin en hızlı erişilebilir şekilde saklanması, Efficient Data Access)<br>
+ Veri bütünlüğü (Pek çok parçadan oluşan verinin tek elden yönetilerek silme ve güncellemelerin takibinin
+mümkün olması, Data Integrity)<br>
+ Veri Güvenliği (Verinin şifrelenebilmesi ve kullanıcı bazında kontrol edilebilmesi, Security)<br>
+ Veri Yönetimi (Data Administration)<br>
+ Eşzamanlı Erişim ( Aynı anda veriye pek çok farklı program ile erişebilme imkanı , Concurrent Access)<br>
+ Sistem kurtarması (Sistemdeki yedekleme ve kurtarma özellikleri, crash recovery)<br>
+ Daha hızlı program geliştirme imkanı (Reduced application development time)<br>
+Ve yukarıdaki bu özelliklerin dışında pek çok faydaları sağlamaktadır.
+İyi bir şekilde tasarlandığında, bir harita veri tabanı, büyük bir coğrafi verinin hızlı indekslenmesini ve
+aranmasını sağlar.<br>
+Yol veri tabanı: Bir vektör haritasıdır . Sokak adları veya numaraları ve ev numaraları ile ilgi noktaları ( yol
+işaretleri ) coğrafi koordinatlar olarak kodlanır. Bu, kullanıcıların cadde adresine veya coğrafi koordinatlara
+göre istediğiniz bir hedefi bulmalarını sağlar.
+Projemizde Trafik sıkışıklığı haritası: Belirli bir alan için trafik akışının grafiksel, Veri tipik olarak anonim GPS
+veri noktaları ve yollarda gömülü lazer sensörlerimiz vasıtasıyla toplanır, daha sonra merkezi bir tesiste
+bilgisayar tarafından işlenir ve kullanıcılar için bir harita görünümü olarak dağıtılır.<br></p>
+				<p class="blue-text tm-title" align="left">Makine öğrenmesi</p> 
+				<p align="left">   Projemizde makine öğrenmesi teniklerini trafik daha sıkışmadan trafik durumuyla ilgili tahminde bulunmak
+için kullanacağız. Veritabanında depolanan daha önceden sensörlerden aldığımız verileri ve saat bilgilerini
+makine öğrenmesi teniklerini kullanarak analiz ederek, daha trafik sıkışmadan hangi şartlarda trafiğin
+sıkıştığını belirleyerek kullanıcıları bilgilendirmek amaçlanmaktadır.<br>
+Makine öğrenmesi esas olarak 1959 yılında bilgisayar biliminin yapay zekada sayısal öğrenme ve model
+tanıma çalışmalarından geliştirilmiş bir alt dalıdır. Makine öğrenmesi yapısal işlev olarak öğrenebilen ve
+veriler üzerinden tahmin yapabilen algoritmaların çalışma ve inşalarını araştıran bir sistemdir. Bu tür
+algoritmalar statik program talimatlarını harfiyen takip etmek yerine örnek girişlerden veri tabanlı tahminleri
+ve kararları gerçekleştirebilmek amacıyla bir model inşa ederek çalışırlar.
+Makine öğrenmesine ait başlıca kavramların listesi açıklamalarıyla birlikte aşağıdaki gibidir:<br>
+► Denetimli Öğrenme: Veriler etkileşimli sistemlerden alınarak belirli bir düzende organize edilmesidir<br>
+► Denetimsiz Öğrenme: Sınıf bilgisi barındırmayan verilerin içerisindeki gruplar irdelenmesidir<br>
+► Yarı Denetimli Öğrenme: Bu kavram tam olarak yukarıdaki iki kavramın arasında yer alır ve
+etiketlenmemiş büyük miktarda bir veri ile etiketlenmiş küçük miktarda bir verinin beraber kullanılmasıdır.<br>
+► Takviyeli Öğrenme: Öğreticinin, sistemin ürettiği sonuç için doğru ya da yanlış olarak bir
+değerlendirmesidir.<br>
+► Yoğun Öğrenme: Hiyerarşik öğrenme olarak da bilinir. Bu öğrenme yöntemi derin grafiklerde birçok
+doğrusal ve doğrusal olmayan dönüşümlerden ve çoklu işlem katmanlarından oluşturulmuş verilerde, üst
+düzey soyutlamalar kullanılarak elde edilen model girişimlerine dayalı bir dizi algoritmalarla geliştirilmiş
+makine öğrenmesidir.<br>
+► Makine öğrenmesi bilinen özelliklere dayanarak öğrenilen verilerden yapılan tahminler üzerine odaklanır.<br>
+► Veri madenciliği ise verilerdeki (geçmiş) bilinmeyen özelliklerin keşfedilmesine odaklanır. Bu veri
+tabanlarında bilgi keşfi analizinin bir adımıdır.</p> 
+
+<div class="col-md-6 margin-bottom-sm-8">
+<div class="tm-2-col-box-left">
+                            <img src="makine1.jpg" alt="Image" class="img-fluid tm-img-2-col">
+							
+</div></div>
+<div class="col-md-6 margin-bottom-sm-8">
+<div class="tm-2-col-box-left">
+                            <img src="makine2.jpg" alt="Image"  height="500" width="650">
+							
+</div></div>	
+
+
+<p class="blue-text tm-title" align="left">Mobil Ağlar, Teknolojiler ve Uygulamaları</p>
+<p align="left"> Projemizde, mobil ağ uygulamalarını, yollardaki akıllı sistemlerden belirli periyotlarla, kablosuz, veri toplama
+amacı doğrultusunda kullandık. Mobil ağlar kablo kullanılmadan bağlantı kurmaya yarayan ağ çeşididir.
+Kapsama alanını belirleyen baz istasyonları ve sunulan hizmetleri kullanan mobil terminallerden oluşur.
+Günümüzde mobil ağlara en iyi örnek Wi-fi ve GSM’ dir.
+Ülkemizde ve Dünya’ da Kullanılan Bazı Mobil Ağ Teknolojileri<br>
+2G<br>
+G – GPRS<br>
+E – EDGE<br>
+3G<br>
+H – HSPA<br>
+H+ – HSPA+<br>
+4G<br>
+4.5G<br>
+<font color="blue">Farklı Tiplerde Kablosuz İletişim Uygulamaları</font><br>
+19. yüzyılda başlayan kablosuz iletişim, farklı alanlarda hızla gelişti. Bu teknolojiler bilgiyi elektromanyetik
+dalgalar (IR, RF, uydu vb. ) vasıtasıyla iletir.
+Farklı tiplerde kablosuz iletişim uygulamalarına örnekler;<br>
+• GPS<br>
+• Wi-Fi<br>
+• Uydu bağlantılı TV<br>
+• Laptoplar<br>
+• 3 ve 4G network kullanan telefonlar<br>
+• Bluetooth teknolojileri<br>
+Mobil ağ kablosuz hizmet sunduğundan, diğer ağlara kıyasla daha avantajlıdır. Daha az güç harcayarak daha
+fazla insana erişim ve daha büyük ve ölçeklendirilebilir kapsama alanları sağlar. Ayrıca herhangi bir noktadan,
+yüksek hızla, herhangi bir bilgiye daha çabuk erişilebilir</p>
+
+
+
+
                         </div>
                     </div>
                 </section>
@@ -210,33 +429,43 @@ http://www.templatemo.com/tm-483-lumino
                 <section id="tm-section-4" class="tm-section">
                     <div class="tm-container">
 
-                        <h2 class="blue-text tm-title text-xs-center">Contact Us</h2>
+                        <h2 class="blue-text tm-title text-xs-center">Kaynakçamız</h2>
                       
-                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
-                            <form action="index.html" method="post" class="tm-contact-form">                                
-                                <div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-form-group-left">
-                                    <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
-                                </div>
-                                <div class="form-group col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 tm-form-group-right">
-                                    <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" id="contact_subject" name="contact_subject" class="form-control" placeholder="Subject"  required/>
-                                </div>
-                                <div class="form-group">
-                                    <textarea id="contact_message" name="contact_message" class="form-control" rows="6" placeholder="Message" required></textarea>
-                                </div>
-                            
-                                <button type="submit" class="btn tm-light-blue-bordered-btn pull-xs-right">Submit</button>                          
-                            </form>   
-                        </div> <!-- col -->
+                        <p align="left"> [1] Benet, G., Blanes, F., Simo, J.E., Perez, P., “Using Infrared Sensors for Distance Measurement in Mobile
+Robots,” Journal of Robotics and Autonomous Systems, vol. 10, 2002, pp. 255-266.<br>
+[2] Mohammad, T. ,“Using Ultrasonic and Infrared Sensors for Distance Measurement”, World Academy of
+Science, Engineering and Technology, 2009.<br>
+[3] Everett, H.R. ,“Sensors for Mobile Robots”, AK Peters, Ltd., Wellesley, MA, 1995.
+[4] Flynn, A.M., “Combining Sonar and Infrared sensors for mobile robot navigation,” The International<br>
+Journal of Robotics Research, vol. 7(6), 1988, pp. 5-14.
+[5] Kassan, J. Morelli, J. , “Ultrasonic Sensing for Challenging Environments”, Sensors, Jul 1, 2005.<br>
+[6] Omron Industrial Automation Technical Guide, “Ultrasonic Sensors”,<br>
+(<a href= "http://www.ia.omron.com/support/guide/50/further_information.html"> <font color ="green">tıkla</font> </a> )
+[7] Robotic & Mechatronic HomeLab Kit Community,( <a href= "http://home.roboticlab.eu"> <font color ="green">tıkla</font> </a>)<br>
+[8] Robot Shop, (<a href= "http://www.robotshop.com/compare-infrared-ultrasonic-distance-sensors.html"> <font color ="green">tıkla</font> </a>)<br>
+[9] G. Benet, G., Albaladejo, J., Rodas, A., Gil, P.J., “An Intelligent Ultrasonic Sensor for Ranging in an
+Industrial Distributed Control System”, in: Proceedings of the IFAC Symposium on Intelligent Components
+and Instruments for Control Applications, Malaga, Spain, May 1992, pp. 299–303.<br>
+[10] Novotny, P.M., Ferrier, N.J., “Using Infrared Sensors and the Phong Illumination Model to Measure
+Distances”, Proceedings of the International Conference on Robotics and Automation”, Vol. 2, Detroit, MI,
+April 1999, pp. 1644–1649.</p>
+
+						<!-- col -->
                         
-                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4 margin-top-xs-50">
-                            <h3 class="light-blue-text tm-subtitle">Etiam at rhoncus nisl</h3>
-                            <p>Nunc rutrum ac ante euismod cursus. Suspendisse imperdiet feugiat massa nec iaculis</p>
+                        <div class="text-xs-center tm-footer-text">
+                            <h3 class="light-blue-text tm-subtitle">Grup Üyeleri ve Projedeki Görevleri</h3>
+                            <p align="left"><br>1 171044043 ÇİĞDEM ÖNEŞ Araştırma + Poster<br>
+								2 161044033 ELİF KELEŞ Araştırma + düzenleme<br>
+								3 151044084 MUHAMMED ÖZKAN Araştırma + uml<br>
+								4 161044006 EMİRHAN BALCI Araştırma + latex<br>
+								5 151044014 FERHAT ÇELİK Araştırma + website<br>
+								6 161044036 FURKAN ÖZEV Araştırma + video<br>
+								7 151044034 BEYZA AYDOĞMUŞ Araştırma + Sunu + Rapor düzenlemesi<br>
+							
+								8 161044076 BERKE SÜSLÜ -<br></p>
                             <p>
-                                Tel: <a href="tel:0100200340">010-020-0340</a><br>
-                                Email: <a href="mailto:info@company.com">info@company.com</a>
+                                
+                                Email: <a href="mailto:info@company.com">smartasphalt@outlook.com</a>
                             </p>
                         </div>
                     </div>                    
